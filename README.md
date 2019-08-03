@@ -7,3 +7,4 @@
 3、使用google protobuffer 协议
 4、支持linux/win
 
+验证业务：端游/页游，当初最高线承载可以达上万链接
