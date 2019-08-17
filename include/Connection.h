@@ -37,7 +37,7 @@ public:
 
 	uint32 getSocketId();
 	std::string getRemoteIp();
-	void	 setUserData(void* data);
+	void setUserData(void* data);
 	void* getUserData();
 
 private:

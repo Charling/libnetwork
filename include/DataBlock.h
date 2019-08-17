@@ -24,10 +24,10 @@ public:
 	virtual const char* dataT() const;
 	virtual int size() const;
 	virtual int appendData(const void* buff, int size);
-	virtual bool 	deleteData(int offset, int size);
-	virtual void 	clearCache();
-	virtual void 	init();
-	virtual bool 	memcpyData(void* buff, int offset, int size);
+	virtual bool deleteData(int offset, int size);
+	virtual void clearCache();
+	virtual void init();
+	virtual bool memcpyData(void* buff, int offset, int size);
 
 public:
 	template<typename T>
